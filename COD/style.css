@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #141414;
+    color: #ffffff;
+    margin: 0;
+    padding: 20px;
+}
+
+h2 {
+    text-align: center;
+    color: darkgray;
+}
+
+#output {
+    max-width: 800px;
+    margin: 30px auto;
+    background-color: #1f1f1f;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+h3, h4 {
+    color: darkgray;
+    margin-top: 10px;
+}
+
+p {
+    margin: 8px 0;
+    font-size: 16px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    background-color: #2c2c2c;
+    margin: 8px 0;
+    padding: 10px;
+    border-radius: 6px;
+    transition: 0.2s;
+}
+
+li:hover {
+    background-color: #3a3a3a;
+    transform: scale(1.02);
+}
+
+.badge {
+    display: inline-block;
+    padding: 3px 8px;
+    border-radius: 5px;
+    font-size: 12px;
+    margin-left: 5px;
+}
+
+.filme {
+    background-color: #2196f3;
+}
+
+.serie {
+    background-color: #4caf50;
+}
+
